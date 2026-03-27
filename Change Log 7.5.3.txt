@@ -1,0 +1,32 @@
+Updated proposal templates to show "Tesla Powerwall" instead of "Tesla Powerwall 2" for the warranty. 
+Updated pricing of the PW to the new PW3 pricing.
+7.4.91
+Removed Enphase batteries
+Changed name of buttons from "Financed" to "Goodleap"
+7.5 
+Added Enfin financing
+Added CO Fort Collins rebate for batteries
+Updated OR incentives, separated by utility, updated prices/limits.
+Added zone (zip code) based price increases, changed from by state.
+Added zone override in case zip code database cannot find zip code in address.
+Updated layout of the entire file to be more scalable/changeable.
+Updated proposal log data to be more readable.
+Updated rebates tab to be more scalable.
+Updated Down Payment section to its own tab that goes off of specific financing limits.
+Moved proposal details to its own tab to be more readable.
+Updated python and VBA to account for new financing and rebates.
+Removed requirement to save before creating proposals.
+Lots of other minor tweaks.
+
+7.5.1
+Updated Approved zip codes, adjusted pricing for zones.
+
+7.5.2
+Auto saves the form when clearing the sheet, making closing the sheet slightly less time consuming.
+Added logic to add $1000 for any battery that has more solar than the number of batteries can handle to account for additional costs associated with relocating some of the solar breakers to not feed the battery.
+
+7.5.2
+Removed Enfin products from Retrofit Proposal Tool
+
++++++
+Would like to check to see if proposal log number exists before creating props.
